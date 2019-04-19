@@ -50,7 +50,6 @@ export default function HTML(props) {
 
       jQuery('a.page-scroll').on('click', function (event) {
         var $anchor = $(this);
-        console.log('am dat click');
         $('html, body').stop().animate({
           scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
