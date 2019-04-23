@@ -19,15 +19,15 @@ export default class ServiceSection extends Component {
 						</div>{/*/.hex */}
 						<h3 className="service-title content-title">
 							{item.name}
-									</h3>{/*/.service-title content-title */}
+						</h3>{/*/.service-title content-title */}
 						<p className="service-description">
 							{item.description}
-									</p>{/*/.service-description */}
+						</p>{/*/.service-description */}
 
 						<div className="services-button">
-							<a href={item.linkbutton.url} className="btn custom-btn angle-effect">
+							{item.linkbutton &&  <a href={item.linkbutton.url} className="btn custom-btn angle-effect">
 								Detalii
-										</a>
+			</a> }
 						</div>{/*/.services-button */}
 					</div>{/*/.service-box */}
 				</div>

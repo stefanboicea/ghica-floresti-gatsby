@@ -33,9 +33,9 @@ export default class CausesSection extends Component {
 						<p className="post-text">
 						{item.description}
 			</p>{/*/.post-text */}
-						<a className="btn donate-btn" href={item.donationlink.url}>
+			{item.donationlink && <a className="btn donate-btn" href={item.donationlink.url}>
 							Doneaza
-			</a>
+			</a> }
 					</div>{/*/.causes-post */}
 				</div>
 			)

@@ -5,29 +5,29 @@ import { Link } from 'gatsby'
 export default class EventsSection extends Component {
 	render() {
 		const { data } = this.props
-        let items = []
-        for (const [index, item] of data.events.entries()) {
-            items.push(
+		let items = []
+		for (const [index, item] of data.events.entries()) {
+			items.push(
 				<div className="item col-md-12" key={index}>
-				<div className="event-content">
-					<h4 className="content-title">
-						<a href={item.link.url}>{item.title}</a>
-					</h4>{/*/.event-title */}
-					<div className="event-date-time-place">
-						<time dateTime={item.time}>
-							<span><i className="fa fa-clock-o"></i></span> {item.time}
-				</time>
+					<div className="event-content">
+						<h4 className="content-title">
+							<a href={item.link.url}>{item.title}</a>
+						</h4>
+						<div className="event-date-time-place">
+							<time dateTime={item.time}>
+								<span><i className="fa fa-clock-o"></i></span> {item.time}
+							</time>
 
-						<span><i className="fa fa-map-marker"></i></span> Locatie: {item.place}
-			</div>
-					<div className="event-img">
-						<img src={item.image.url} />
-					</div>{/*/.event-img */}
-				</div>{/*/.event-content  */}
-			</div>
-            )
+							<span><i className="fa fa-map-marker"></i></span> Locatie: {item.place}
+						</div>
+						<div className="event-img">
+							<img src={item.image.url} />
+						</div>
+					</div>
+				</div>
+			)
 		}
-		
+
 		return (
 			<React.Fragment>
 				{/*Upcoming Events Section */}
@@ -47,10 +47,10 @@ export default class EventsSection extends Component {
 										</div>{/*/.content-icon-hex */}
 										<h3 className="content-title">
 											{data.title}
-								</h3>
+										</h3>
 										<p className="content-description">
 											{data.subtitle}
-								</p>
+										</p>
 									</div>
 
 									<div className="slide-nav-container customNavigation">
@@ -64,14 +64,14 @@ export default class EventsSection extends Component {
 										<div className="event-container">
 											<div id="event-post-slider" className="owl-carousel owl-theme">
 
-												
-						{items}
 
-											</div>{/*/#event-post-slider */}
+												{items}
 
-										</div>{/*/.event-container*/}
+											</div>
+
+										</div>
 									</div>
-								</div>{/*/.com-md-8 */}
+								</div>
 							</div>
 						</div>
 						{/* <div className="bottom-angle"></div> */}
