@@ -26,7 +26,7 @@ const PureLayout = ({ children, data, customSEO }) => (
 								</button>
 								<h1>
 									<a className="navbar-brand" href="index.html">
-										<img className="logo" src="assets/images/logo.png" alt="Logo" rel="hoome" />
+										<img className="logo" src={'/assets/images/logo.png'} alt="Logo" rel="hoome" />
 									</a>
 								</h1>
 							</div>
@@ -36,12 +36,12 @@ const PureLayout = ({ children, data, customSEO }) => (
 								<ul id="headernavigation" className="nav navbar-nav pull-right">
 									<li><a className="page-scroll active" href="/#top-section">Acasa</a></li>
 									<li><a className="page-scroll" href="/#about">Despre</a></li>
-									<li><a className="page-scroll" href="#team">Echipa</a></li>
-									<li><a className="page-scroll" href="#service">Servicii</a></li>
+									<li><a className="page-scroll" href="/#team">Echipa</a></li>
+									<li><a className="page-scroll" href="/#service">Servicii</a></li>
 									{/* <Link hash={`gallery`} activeClassName="page-scroll">Galerie</Link> */}
-									<li><a className="page-scroll" href="#news">Blog</a></li>
-									<li><a className="page-scroll" href="#upcoming-events">Evenimente</a></li>
-									<li><a className="page-scroll" href="#contact">Contact</a></li>
+									<li><a className="page-scroll" href="/#news">Blog</a></li>
+									<li><a className="page-scroll" href="/#upcoming-events">Evenimente</a></li>
+									<li><a className="page-scroll" href="/#contact">Contact</a></li>
 
 								</ul>
 							</nav>

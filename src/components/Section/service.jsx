@@ -5,7 +5,6 @@ import { Link } from 'gatsby'
 export default class ServiceSection extends Component {
 	render() {
 		const { data } = this.props
-		console.log(data)
 		let items = []
 		let itemsli = []
 		for (const [index, item] of data.services.entries()) {

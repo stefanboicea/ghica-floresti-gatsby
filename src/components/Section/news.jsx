@@ -5,12 +5,10 @@ import Img from 'gatsby-image'
 export default class NewsSection extends Component {
 	render() {
 		const { data } = this.props
-		console.log(data.edges)
 		let items = []
 		let itemsli = []
 		for (const [index, edge] of data.edges.entries()) {
 			const item = edge.node.data
-			console.log(item)
 			const link = '/' + edge.node.uid
 			items.push(
 				<div className="news-item col-md-6 from-bottom delay-200" key={index}>
