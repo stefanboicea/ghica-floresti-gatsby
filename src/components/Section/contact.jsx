@@ -31,8 +31,8 @@ export default class ContactSection extends Component {
                                             Scrie-ne un mesaj
                     </h3>
 
-                                        <form className="contact-form"  name="contact" data-netlify="true"  method="POST" netlify>
-                                        <input type="hidden" name="form-name" value="contact" />
+                                        <form className="contact-form"  name="contact-form" action="/" id="contact-form"   method="post">
+                                        <input type="hidden" name="form-name" value="contact-form" />
                                             <div id="name_error" className="error">
                                                 <img src="assets/images/email/error.png" alt="Error!" />
                                                 Introduceti numele.
