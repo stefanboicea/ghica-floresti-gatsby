@@ -28,21 +28,21 @@ export default class ContactSection extends Component {
                                 <div className="col-md-6">
                                     <div className="contact-form-container">
                                         <h3 className="content-title">
-                                            Drop us a message
+                                            Scrie-ne un mesaj
                     </h3>
 
-                                        <form className="contact-form" id="contact-form" data-netlify="true" method="POST">
+                                        <form className="contact-form" id="contact-form" data-netlify="true" action="/" method="POST">
                                             <div id="name_error" className="error">
                                                 <img src="assets/images/email/error.png" alt="Error!" />
-                                                Please enter your name.
+                                                Introduceti numele.
                         </div>{/*/#name_error */}
                                             <div className="input-container li_user">
-                                                <input type="text" className="form-control" name="name" id="name" placeholder="Name" required />
+                                                <input type="text" className="form-control" name="name" id="name" placeholder="Nume" required />
                                             </div>{/*/.input-container*/}
 
                                             <div id="email_error" className="error">
                                                 <img src="assets/images/email/error.png" alt="Error!" />
-                                                Please enter your valid E-mail ID.
+                                                Introduceti o adresa de email valida.
                         </div>{/*/#email_error */}
                                             <div className="input-container li_mail">
                                                 <input type="email" className="form-control" name="email" id="email" placeholder="Email" required />
@@ -50,22 +50,22 @@ export default class ContactSection extends Component {
 
                                             <div id="message_error" className="error">
                                                 <img src="assets/images/email/error.png" alt="Error!" />
-                                                Please enter your message.
+                                                introduceti mesajul.
                         </div>{/*/#message_error */}
                                             <div className="input-container li_pen">
-                                                <textarea className="form-control" id="message" name="message" cols="45" placeholder="Message" rows="6"></textarea>
+                                                <textarea className="form-control" id="message" name="message" cols="45" placeholder="Mesaj" rows="6"></textarea>
                                             </div>{/*/.input-container */}
 
                                             <div id="mail_success" className="success">
                                                 <img src="assets/images/email/success.png" alt="Success!" />
-                                                Your message has been sent successfully.
+                                                Mesajul a fost trimis cu succes.
                         </div>{/*/#mail_success */}
 
                                             <div id='mail_fail' className='error'>
-                                                <img src="assets/images/email/error.png" alt="Error!" /> Sorry, error occured this time sending your message.
+                                                <img src="assets/images/email/error.png" alt="Error!" /> Scuze, a aparut o eroare la trimiterea mesajului.
                         </div>{/*/#mail_fail */}
 
-                                            <button type="submit" className="btn custom-btn angle-effect" id="send_message">Submit</button>
+                                            <button type="submit" className="btn custom-btn angle-effect" id="send_message">Trimite</button>
                                         </form>{/*/.contact-form */}
 
                                     </div>{/*/.contact-form-container */}
