@@ -232,10 +232,6 @@ export const pageQuery = graphql`
 				teammembers {
 					name
 					role
-					description
-					avatar {
-						url
-					}
 				}
 			}
 		}
