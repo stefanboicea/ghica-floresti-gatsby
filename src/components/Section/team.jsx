@@ -12,14 +12,15 @@ export default class TeamSection extends Component {
             items.push(
 				<div className="item" key={index}>
 				<div className="team-member-box from-bottom delay-200">
-					<figure>
+					{/* <figure>
 						<img src={item.avatar.url} alt="membru echipa" />
-					</figure>
+					</figure> */}
 					<h3 className="member-name">{item.name}</h3>
 					<h4 className="member-designation">{item.role}</h4>
-					<p className="member-description">
+					{/* <p className="member-description">
 						{item.description}
-			</p>{/*/.member-description */}
+			</p> */}
+			{/*/.member-description */}
 					{/* <div className="social-buttons">
 						<a href="#" className="facebook-btn"><i className="fa fa-facebook"></i></a>
 						<a href="#" className="twitter-btn"><i className="fa fa-twitter"></i></a>
