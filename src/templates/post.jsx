@@ -159,15 +159,7 @@ export const pageQuery = graphql`
               }
             }
           }
-          ... on PrismicPostBodyCodeBlock {
-            slice_type
-            id
-            primary {
-              code_block {
-                html
-              }
-            }
-          }
+       
           ... on PrismicPostBodyQuote {
             slice_type
             id

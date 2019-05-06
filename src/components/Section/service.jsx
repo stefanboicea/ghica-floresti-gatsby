@@ -53,50 +53,9 @@ export default class ServiceSection extends Component {
 							<div className="section-content">
 								<div className="row">
 
-
-									<div className="col-md-4 from-bottom delay-600">
-										<div className="service-box">
-											<div className="hex service-icon-hex">
-												<div className="service-icon">
-													<span aria-hidden="true" className="li_lab"></span>
-												</div>{/*/.service-icon */}
-											</div>{/*/.hex */}
-											<h3 className="service-title content-title">
-												Tree Planting
-									</h3>{/*/.service-title content-title */}
-											<p className="service-description">
-												We arrange event to make the world green and keep the environment favorable to us. Worldwide Tree is notable one of them.
-									</p>{/*/.service-description */}
-
-											<div className="services-button">
-												<a href="#" className="btn custom-btn angle-effect">
-													Learn More
-										</a>
-											</div>{/*/.services-button */}
-										</div>{/*/.service-box */}
-									</div>{/*/.col-md-4 */}
-
-									<div className="col-md-4 from-bottom delay-1000">
-										<div className="service-box">
-											<div className="hex service-icon-hex">
-												<div className="service-icon">
-													<span aria-hidden="true" className="li_world"></span>
-												</div>{/*/.service-icon */}
-											</div>{/*/.hex */}
-											<h3 className="service-title content-title">
-												Child Care
-									</h3>{/*/.service-title content-title */}
-											<p className="service-description">
-												In the present world, Childs' are living in danger, especially street Childs. We have many child care centers to care them.
-									</p>{/*/.service-description */}
-
-											<div className="services-button">
-												<a href="#" className="btn custom-btn angle-effect">
-													Learn More
-										</a>
-											</div>{/*/.services-button */}
-										</div>{/*/.service-box */}
-									</div>{/*/.col-md-4 */}
+			{items}
+								
+								
 								</div>
 							</div>
 						</div>{/*/.container*/}
