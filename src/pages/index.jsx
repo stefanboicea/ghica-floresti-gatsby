@@ -30,8 +30,8 @@ class Index extends Component {
 								<ul id="headernavigation" className="nav navbar-nav pull-right">
 									<li><a className="page-scroll active" href="#top-section">Acasa</a></li>
 									<li><a className="page-scroll" href="#about">Despre</a></li>
-									<li><a className="page-scroll" href="#team">Echipa</a></li>
-									<li><a className="page-scroll" href="#service">Servicii</a></li>
+									{/* <li><a className="page-scroll" href="#team">Echipa</a></li> */}
+									<li><a className="page-scroll" href="#service">Proiecte</a></li>
 									{/* <Link hash={`gallery`} activeClassName="page-scroll">Galerie</Link> */}
 									<li><a className="page-scroll" href="#news">Blog</a></li>
 									<li><a className="page-scroll" href="#upcoming-events">Evenimente</a></li>
@@ -121,18 +121,19 @@ class Index extends Component {
 					<div className="footer-section">
 						<div className="container">
 							<div className="footer-social-btn pull-right">
-								<a href="#" className="twitter-btn"><i className="fa fa-twitter"></i></a>
-								<a href="#" className="facebook-btn"><i className="fa fa-facebook"></i></a>
-								<a href="#" className="github-btn"><i className="fa fa-github-alt"></i></a>
-								<a href="#" className="vimeo-btn"><i className="fa fa-vimeo-square"></i></a>
-								<a href="#" className="pinterest-btn"><i className="fa fa-pinterest"></i></a>
-								<a href="#" className="google-plus-btn"><i className="fa fa-google-plus"></i></a>
-								<a href="#" className="youtube-btn"><i className="fa fa-youtube"></i></a>
-								<a href="#" className="dribbble-btn"><i className="fa fa-dribbble"></i></a>
-								<a href="#" className="linkedin-btn"><i className="fa fa-linkedin"></i></a>
+								{/* <a href="#" className="twitter-btn"><i className="fa fa-twitter"></i></a> */}
+								<a href="https://www.facebook.com/domeniulcantacuzino" className="facebook-btn"><i className="fa fa-facebook"></i></a>
+								<a href="https://www.instagram.com/domeniulcantacuzinofloresti" className="instagram-btn"><i className="fa fa-instagram"></i></a>
+								{/* <a href="#" className="github-btn"><i className="fa fa-github-alt"></i></a> */}
+								{/* <a href="#" className="vimeo-btn"><i className="fa fa-vimeo-square"></i></a> */}
+								{/* <a href="#" className="pinterest-btn"><i className="fa fa-pinterest"></i></a> */}
+								{/* <a href="#" className="google-plus-btn"><i className="fa fa-google-plus"></i></a> */}
+								<a href="https://www.youtube.com/channel/UCKO0E6Ol2zU2dfwlnfkcxHg?" className="youtube-btn"><i className="fa fa-youtube"></i></a>
+								{/* <a href="#" className="dribbble-btn"><i className="fa fa-dribbble"></i></a> */}
+								{/* <a href="#" className="linkedin-btn"><i className="fa fa-linkedin"></i></a> */}
 							</div>{/*/.footer-social-btn */}
 							<div className="copyrights pull-left">
-								&copy; <a href="#">Heal</a> 2014, All Rights Reserved, Developed by <a href="http://www.codexcoder.com">CodexCoder</a>
+							© 2019 | Domeniul Cantacuzino
 							</div>{/*/.copyrights */}
 
 
