@@ -35,6 +35,7 @@ class Index extends Component {
 									{/* <Link hash={`gallery`} activeClassName="page-scroll">Galerie</Link> */}
 									<li><a className="page-scroll" href="#news">Blog</a></li>
 									<li><a className="page-scroll" href="#upcoming-events">Evenimente</a></li>
+									<li><a className="page-scroll" href="/istoria">Istoria</a></li>
 									<li><a className="page-scroll" href="#contact">Contact</a></li>
 
 								</ul>

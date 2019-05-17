@@ -26,7 +26,7 @@ export default class Gallery extends Component {
                                     Galerie
 						</h2>{/*/.section-title */}
                                 <p className="section-description">
-                                    Aici va sta galeria
+                                Imagini cu Domeniul Cantacuzino de la Florești, Prahova
 						</p>
                             </div>{/*/.section-head */}
 
