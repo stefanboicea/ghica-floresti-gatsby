@@ -122,8 +122,8 @@ class Index extends Component {
 				{/*Footer Section */}
 				<footer id="footer-section">
 					<div className="footer-section">
-						<div className="container">
-							<div className="footer-social-btn pull-right">
+						<div className="container text-center">
+							<div className="footer-social-btn">
 								{/* <a href="#" className="twitter-btn"><i className="fa fa-twitter"></i></a> */}
 								<a href="https://www.facebook.com/domeniulcantacuzino" className="facebook-btn"><i className="fa fa-facebook"></i></a>
 								<a href="https://www.instagram.com/domeniulcantacuzinofloresti" className="instagram-btn"><i className="fa fa-instagram"></i></a>
