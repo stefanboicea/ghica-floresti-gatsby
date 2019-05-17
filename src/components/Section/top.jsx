@@ -22,7 +22,8 @@ export default class TopSection extends Component {
                 {item.buttomtext}
             </p>
             <p className="link">
-                <a href={item.linkbutton.url} className="btn custom-btn angle-effect">Află mai multe</a>
+            {/* {index===0 && <a href={item.linkbutton.url} className="btn custom-btn angle-effect">Află mai multe</a>}  */}
+               {index===0 && <a href={'/istoria'} className="btn custom-btn angle-effect">Află mai multe</a>} 
             </p>
         </div>
           )

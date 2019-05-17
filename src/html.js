@@ -1,14 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
+import website from '../config/website'
 
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <title>Ghica Floresti</title>
-        <meta name="description" content="ghica floresti" />
-        <meta name="keywords" content="ghica, floresti" />
+        <title>{website.title} </title>
+        <meta name="description" content={website.description} />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -16,12 +16,11 @@ export default function HTML(props) {
         <link href={'/assets/css/bootstrap.min.css'} rel="stylesheet" />
         <link href={'/assets/css/font-awesome.min.css'} rel="stylesheet" />
         <link href={'/assets/css/linecons-font-style.css'} rel="stylesheet" />
-
         <link href={'/assets/css/style.css'} rel="stylesheet" />
         <link href={'/assets/css/responsive.css'} rel="stylesheet" />
         <link rel="stylesheet" href={'/assets/css/owl.carousel.css'} />
         <link rel="stylesheet" href={'/assets/css/prettyPhoto.css'} />
-        <link rel="shortcut icon" href={'/images/favicon.png'} />
+        <link rel="shortcut icon" href={website.favicon} />
 
         {props.headComponents}
       </head>

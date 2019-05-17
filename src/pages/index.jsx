@@ -26,14 +26,16 @@ class Index extends Component {
 							</div>
 
 							<nav className="collapse navbar-collapse">
-								<a href="#donate" className="donate pull-right">Donează <i className="fa fa-heart"></i></a>
+								<a href="#contact" className="donate pull-right page-scroll">Implică-te! 
+								 {/* <i className="fa fa-heart"></i> */}
+								</a>
 								<ul id="headernavigation" className="nav navbar-nav pull-right">
 									<li><a className="page-scroll active" href="#top-section">Acasa</a></li>
 									<li><a className="page-scroll" href="#about">Despre</a></li>
 									{/* <li><a className="page-scroll" href="#team">Echipa</a></li> */}
 									<li><a className="page-scroll" href="#service">Proiecte</a></li>
-									{/* <Link hash={`gallery`} activeClassName="page-scroll">Galerie</Link> */}
-									<li><a className="page-scroll" href="#news">Blog</a></li>
+									<li><a className="page-scroll" href="#gallery">Galerie</a></li>
+									<li><a className="page-scroll" href="#news">Stiri</a></li>
 									<li><a className="page-scroll" href="#upcoming-events">Evenimente</a></li>
 									<li><a className="page-scroll" href="/istoria">Istoria</a></li>
 									<li><a className="page-scroll" href="#contact">Contact</a></li>
