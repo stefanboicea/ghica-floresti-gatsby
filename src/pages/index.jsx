@@ -19,7 +19,7 @@ class Index extends Component {
 									<i className="fa fa-bars"></i>
 								</button>
 								<h1>
-									<a className="navbar-brand" href="index.html">
+									<a className="navbar-brand" href={'/'}>
 										<img className="logo" src="assets/images/logo.png" alt="Logo" rel="hoome" />
 									</a>
 								</h1>
