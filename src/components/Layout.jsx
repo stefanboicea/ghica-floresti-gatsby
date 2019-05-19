@@ -50,9 +50,30 @@ const PureLayout = ({ children, data, customSEO }) => (
 				</div>
       </React.Fragment>
       {children}
-      {/* <Footer>
-        <div dangerouslySetInnerHTML={{ __html: data.prismicHomepage.data.footer.html }} />
-      </Footer> */}
+      <footer id="footer-section">
+					<div className="footer-section">
+						<div className="container text-center">
+							<div className="footer-social-btn">
+								{/* <a href="#" className="twitter-btn"><i className="fa fa-twitter"></i></a> */}
+								<a href="https://www.facebook.com/domeniulcantacuzino" className="facebook-btn"><i className="fa fa-facebook"></i></a>
+								<a href="https://www.instagram.com/domeniulcantacuzinofloresti" className="instagram-btn"><i className="fa fa-instagram"></i></a>
+								{/* <a href="#" className="github-btn"><i className="fa fa-github-alt"></i></a> */}
+								{/* <a href="#" className="vimeo-btn"><i className="fa fa-vimeo-square"></i></a> */}
+								{/* <a href="#" className="pinterest-btn"><i className="fa fa-pinterest"></i></a> */}
+								{/* <a href="#" className="google-plus-btn"><i className="fa fa-google-plus"></i></a> */}
+								<a href="https://www.youtube.com/channel/UCKO0E6Ol2zU2dfwlnfkcxHg?" className="youtube-btn"><i className="fa fa-youtube"></i></a>
+								{/* <a href="#" className="dribbble-btn"><i className="fa fa-dribbble"></i></a> */}
+								{/* <a href="#" className="linkedin-btn"><i className="fa fa-linkedin"></i></a> */}
+							</div>{/*/.footer-social-btn */}
+							<div className="copyrights pull-left">
+							© 2019 | Domeniul Cantacuzino
+							</div>{/*/.copyrights */}
+
+
+						</div>
+					</div>{/*/.footer-section */}
+				</footer>
+
     </>
 )
 

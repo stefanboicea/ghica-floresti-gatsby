@@ -66,7 +66,7 @@ export default class NewsSection extends Component {
 								</div>{/*/.news-container */}
 							</div>
 							<div className="view-all">
-										<a href="blog-page.html" className="btn custom-btn angle-effect">Vezi tot</a>
+										<a href="/stiri" className="btn custom-btn angle-effect">Vezi tot</a>
 									</div>
 						</div>
 					</div>{/*/.news-section */}

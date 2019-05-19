@@ -258,10 +258,7 @@ export const pageQuery = graphql`
 				subtitle
 				services {
 					name
-					description
-					linkbutton {
-						url
-					}
+					
 				}
 			}
 		}

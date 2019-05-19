@@ -445,7 +445,7 @@ AllPosts.propTypes = {
 
 export const pageQuery = graphql`
   query AllPosts {
-    posts: allPrismicPost(limit: 2, sort: { fields: [data___date], order: DESC }) {
+    posts: allPrismicPost(sort: { fields: [data___date], order: DESC }) {
       edges {
         node {
           uid

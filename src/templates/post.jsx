@@ -69,11 +69,11 @@ const Post = ({ data: { prismicPost, posts }, location }) => {
 					{/* Post Box End */}
 					<hr />
 
-					
+                
 				</div>{/* /#blog-section */}	
 
 
-				<aside id="blog-sidebar" className="col-md-4 blog-sidebar">
+				{/* <aside id="blog-sidebar" className="col-md-4 blog-sidebar">
 					<div className="widget clearfix">
 						<h3 className="title">
 							Categorii
@@ -81,15 +81,15 @@ const Post = ({ data: { prismicPost, posts }, location }) => {
 
 						<ul className="widget-content">
             <Categories categories={categories} />
-						</ul>{/* /.widget-content */}
-					</div>{/* /.widget */}
+						</ul>
+					</div>
 
 
 
 			
 
 
-				</aside>{/* /#blog-sidebar */}		
+				</aside> */}
 			</div> {/* /.row */}
 		</div>{/* /.container */}
 

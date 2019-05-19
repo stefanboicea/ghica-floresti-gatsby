@@ -25,7 +25,8 @@ export default class AboutParalaxSection extends Component {
 									</div>
 								</div> */}
 								<p>
-									<a href={data.donationlink.url || '#contact'} className="btn donate-btn page-scroll"> Implică-te <i className="fa fa-heart"></i></a>
+									{/* <a href={data.donationlink.url || '#contact'} className="btn donate-btn page-scroll"> Implică-te <i className="fa fa-heart"></i></a> */}
+									<a href={'#contact'} className="btn donate-btn page-scroll"> Implică-te <i className="fa fa-heart"></i></a>
 								</p>
 							</div>
 						</div>{/*/.parallax-overlay */}
