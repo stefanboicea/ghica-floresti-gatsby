@@ -52,7 +52,7 @@ class Stiri extends Component {
             <Layout customSEO>
               <SEO
                 title={`${website.title} | ${website.titleAlt}`}
-                pathname={location.pathname}
+                // pathname={location.pathname}
                 desc={website.description}
               />
               <React.Fragment>
