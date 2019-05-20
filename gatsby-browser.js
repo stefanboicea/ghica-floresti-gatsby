@@ -65,6 +65,7 @@ exports.onInitialClientRender = () => {
             scrollTop: $($anchor.attr('href')).offset().top
           }, 1500, 'easeInOutExpo');
           // event.preventDefault();
+          $('.navbar-collapse').removeClass('in');
         });
     
     

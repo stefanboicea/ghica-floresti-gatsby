@@ -18,7 +18,7 @@ module.exports = {
 
   twitter: '@stefanboicea', // Twitter Username
   facebook: 'stefan-boicea', // Facebook Site Name
-  // googleAnalyticsID: 'UA-47519312-7',
+  googleAnalyticsID: 'UA-66146423-1',
 
   skipNavId: 'reach-skip-nav', // ID for the "Skip to content" a11y feature
 }

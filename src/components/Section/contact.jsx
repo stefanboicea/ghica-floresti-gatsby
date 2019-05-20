@@ -83,13 +83,13 @@ export default class ContactSection extends Component {
                                         <address>
                                             <ul className="contact-address">
                                                 <li className="fa-map-marker">
-                                                    {data.location}
+                                                <a href="geo:45.0333969,25.7886697" target="_blank"> {data.location}</a> 
                                                 </li>
                                                 <li className="fa-phone">
-                                                    {data.phonelist}
+                                                <a href={'tel:' + data.phonelist } >  {data.phonelist} </a>
                                                 </li>
                                                 <li className="fa-envelope">
-                                                    {data.maillist}
+                                                  <a href={'mailto:' + data.maillist } >{data.maillist}</a>
                                                 </li>
                                             </ul>{/*/.contact-address */}
                                         </address>
