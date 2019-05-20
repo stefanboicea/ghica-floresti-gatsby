@@ -31,7 +31,7 @@ const PureLayout = ({ children, data, customSEO }) => (
 								</h1>
 							</div>
 
-							<nav className="collapse navbar-collapse">
+							<nav className="collapse navbar-collapse" id="main-nav">
               <ul id="headernavigation" className="nav navbar-nav pull-right">
 									<li><a className="page-scroll active" href="/#top-section">Acasa</a></li>
 									<li><a className="page-scroll" href="/#about">Despre</a></li>

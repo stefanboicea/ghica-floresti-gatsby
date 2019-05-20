@@ -25,7 +25,7 @@ class Index extends Component {
 								</h1>
 							</div>
 
-							<nav className="collapse navbar-collapse">
+							<nav className="collapse navbar-collapse" id="main-nav">
 								<a href="#contact" className="donate pull-right page-scroll">Implică-te! 
 								 {/* <i className="fa fa-heart"></i> */}
 								</a>
