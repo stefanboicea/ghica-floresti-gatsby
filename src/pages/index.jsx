@@ -26,18 +26,20 @@ class Index extends Component {
 							</div>
 
 							<nav className="collapse navbar-collapse" id="main-nav">
-								<a href="#contact" className="donate pull-right page-scroll">Implică-te! 
+								<a href={'/fundatia-cantacuzino-floresti'} className="donate pull-right page-scroll">Implică-te! 
 								 {/* <i className="fa fa-heart"></i> */}
 								</a>
 								<ul id="headernavigation" className="nav navbar-nav pull-right">
 									<li><a className="page-scroll active" href="#top-section">Acasa</a></li>
-									<li><a className="page-scroll" href="#about">Despre</a></li>
+									{/* <li><a className="page-scroll" href="#about">Despre</a></li> */}
+									
 									{/* <li><a className="page-scroll" href="#team">Echipa</a></li> */}
 									<li><a className="page-scroll" href="#service">Proiecte</a></li>
 									<li><a className="page-scroll" href="#gallery">Galerie</a></li>
 									<li><a className="page-scroll" href="#news">Stiri</a></li>
 									<li><a className="page-scroll" href="#upcoming-events">Evenimente</a></li>
 									<li><a className="page-scroll" href="/istoria">Istoria</a></li>
+									<li><a className="page-scroll" href="/fundatia-cantacuzino-floresti">Fundația</a></li>
 									<li><a className="page-scroll" href="#contact">Contact</a></li>
 
 								</ul>
