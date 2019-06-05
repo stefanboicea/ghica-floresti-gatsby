@@ -8,6 +8,7 @@ export default class ServiceSection extends Component {
 		let items = []
 		let itemsli = []
 		for (const [index, item] of data.services.entries()) {
+			
 			items.push(
 				<div className="col-md-4 from-bottom delay-200" key={index}>
 					<div className="service-box">
